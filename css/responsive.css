@@ -1,0 +1,172 @@
+
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* CSS */
+
+}
+
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* CSS */
+
+  /* /* global css */
+
+  p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  header {
+    height: 60vh;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .banner-part .content h1 {
+    font-size: 30px;
+  }
+
+  .banner-part .content p {
+    width: 100%;
+    padding: 0px 10px;
+  }
+
+  .cus-height {
+    height: 55vh;
+  }
+
+  .banner-part .content .banner-btns a {
+    padding: 5px 10px;
+
+  }
+
+  .navbar-toggler-icon {
+    border: 1px solid #fff;
+    border-radius: 3px;
+  }
+  .product .container h2 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+  .product .content p {
+    width: 100%;
+    padding: 0px 70px;
+
+  }
+
+  .details {
+    width: 100%;
+    padding: 30px 20px;
+    text-align: center;
+}
+.details .d-content h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.details .underline {
+  margin: 30px auto;
+}
+.details .d-content p {
+  width: 100%;
+  padding: 0px 23px;
+}
+
+
+.customize {
+  width: 100%;
+  text-align: center;
+  padding: 6px 5px;
+}
+.customize .container h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.customize .underline {
+  margin: 30px auto;
+ 
+}
+.customize .container p {
+  width: 100%;
+  padding: 0px 35px;
+}
+.customize img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.Testimonial .owl-carousel .item p {
+  width: 100%;
+  font-size: 14px;
+  margin-top: 30px;
+  padding: 0px 50px;
+}
+.Testimonial .owl-carousel .item img {
+  width: 55px;
+  margin-left: 50px;
+}
+
+.theme h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.theme .theme-btns a {
+  padding: 4px 10px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.price-section .p-card {
+  width: 80%;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 40px;
+}
+.price-section .p-card .p-body {
+  padding: 20px 0px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.price-section .p-card .p-footer .p-btns {
+  padding: 0px 0px 20px;
+}
+
+.contact form {
+  width: 95%;
+  margin: 0px auto;
+  padding: 10px 20px;
+}
+}
